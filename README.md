@@ -1,6 +1,7 @@
 ### Hi there 👋
 
-val David 👨‍💻 = 
+```kotlin
+val David 👨‍💻 =
     person {
       from = Spain
       education = education {
@@ -8,9 +9,9 @@ val David 👨‍💻 =
           university = "Technical University of Madrid, UPM"
       }
       occupation = occupation {
-          role = "Software Engineer"
-          at = "Deutsche Bank AG"
-          focusOn = Tech("Full-stack" and "DevOps"){
+          role = SoftwareEngineer
+          at = DeutscheBankAG
+          focusOn = Tech("Full-stack" and "DevOps") {
                 "Spring" and "Kotlin",
                 "Angular" and "Typescript",
                 "Microservices" and "Microfrontends"
@@ -21,3 +22,4 @@ val David 👨‍💻 =
         email = "david.vega.lichacz@gmail.com"
       }
    }
+```
