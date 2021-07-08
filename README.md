@@ -1,16 +1,23 @@
 ### Hi there 👋
 
-<!--
-**realdavidvega/realdavidvega** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+val David 👨‍💻 = 
+    person {
+      from = Spain
+      education = education {
+          master = "Computer Science"
+          university = "Technical University of Madrid, UPM"
+      }
+      occupation = occupation {
+          role = "Software Engineer"
+          at = "Deutsche Bank AG"
+          focusOn = Tech("Full-stack" and "DevOps"){
+                "Spring" and "Kotlin",
+                "Angular" and "Typescript",
+                "Microservices" and "Microfrontends"
+          }
+      }
+      contact = contactMe {
+        linkedIn = "linkedin.com/in/david-vega-lichacz"
+        email = "david.vega.lichacz@gmail.com"
+      }
+   }
