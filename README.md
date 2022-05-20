@@ -5,7 +5,7 @@ val David 👨‍💻 =
     person {
       from = Spain
       education = education {
-          master = "Computer Science"
+          degree = "Computer Science"
           university = "Technical University of Madrid, UPM"
       }
       occupation = occupation {
