@@ -3,7 +3,7 @@
 ```kotlin
 val David 👨‍💻 =
     person {
-        from 📍 = "Madrid, Spain",
+        from 📍 = "Madrid, Spain"
         education 🎓 = education {
             degree = "Computer Science"
             university = "Technical University of Madrid, UPM"
