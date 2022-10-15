@@ -6,7 +6,7 @@ val David 👨‍💻 =
         from 📍 = "Madrid, Spain"
         education 🎓 = education {
             degree = "Computer Science"
-            university = "Technical University of Madrid, UPM"
+            university = "Technical University of Madrid"
         }
         occupation 🏢 = occupation {
             role = SoftwareEngineer
