@@ -28,7 +28,7 @@ val David 👨‍💻 =
         }
         contact 📫 = contactMe {
             linkedIn = "linkedin.com/in/david-vega-lichacz"
-            email = "david.vega.lichacz@gmail.com"
+            email = "davidvegalichacz@gmail.com"
         }
     }
 }
