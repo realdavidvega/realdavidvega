@@ -21,9 +21,9 @@ val David 👨‍💻 =
             "Arrow" and "Coroutines"
         }
         interests 💞️ = alsoInterestedOn {
-            "Javascript" and "React"
             "Functional Programming"
             "Java" or "Rust"
+            "Javascript" and "React"
         }
         contact 📫 = contactMe {
             linkedIn = "linkedin.com/in/david-vega-lichacz"
