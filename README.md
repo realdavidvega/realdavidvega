@@ -9,8 +9,8 @@ val David 👨‍💻 =
             university = "Technical University of Madrid, UPM"
         }
         occupation 🏢 = occupation {
-            role = SoftwareEngineer,
-            at = DeutscheBankAG,
+            role = SoftwareEngineer
+            at = DeutscheBankAG
             focusOn = Tech("Backend" and "DevOps") {
                 "Spring" and "Kotlin"
                 "Microservices" and "Kubernetes"
