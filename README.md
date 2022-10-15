@@ -17,10 +17,10 @@ val David 👨‍💻 =
                 "Ktor" or "Spring"
             }
         }
-        learning 🌱 = learning {
+        learning 🌱 = currentlyLearning {
             "Arrow" and "Coroutines"
         }
-        interests 💞️ = alsoInterestedOn {
+        interests 💞️ = interestedOn {
             "Functional Programming"
             "Fullstack Development"
             "Angular" or "React"
