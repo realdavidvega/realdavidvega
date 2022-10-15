@@ -27,8 +27,8 @@ val David 👨‍💻 =
             "Java" or "Rust"
         }
         contact 📫 = contactMe {
-            linkedIn = "linkedin.com/in/david-vega-lichacz"
             email = "davidvegalichacz@gmail.com"
+            linkedIn = "linkedin.com/in/david-vega-lichacz"
             twitter = "@realdavidvega"
         }
     }
