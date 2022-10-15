@@ -12,8 +12,9 @@ val David 👨‍💻 =
             role = SoftwareEngineer
             at = DeutscheBankAG
             focusOn = Tech("Backend" and "DevOps") {
+                "Microservices"
                 "Spring" and "Kotlin"
-                "Microservices" and "Kubernetes"
+                "Docker" and "Kubernetes"
             }
         }
         learning 🌱 = learning {
