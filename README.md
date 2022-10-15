@@ -20,7 +20,7 @@ val David 👨‍💻 =
         learning 🌱 = learning {
             "Arrow" and "Coroutines"
         }
-        interested 💞️ = alsoInterestedOn {
+        interests 💞️ = alsoInterestedOn {
             "Javascript" and "React"
             "Functional Programming"
             "Java" or "Rust"
