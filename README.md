@@ -13,8 +13,8 @@ val David 👨‍💻 =
             at = DeutscheBankAG
             focusOn = Tech("Backend" and "DevOps") {
                 "Microservices" and "Kotlin"
-                "Ktor" or "Spring"
                 "Docker" and "Kubernetes"
+                "Ktor" or "Spring"
             }
         }
         learning 🌱 = learning {
@@ -22,8 +22,9 @@ val David 👨‍💻 =
         }
         interests 💞️ = alsoInterestedOn {
             "Functional Programming"
+            "Fullstack Development"
+            "Angular" or "React"
             "Java" or "Rust"
-            "Javascript" and "React"
         }
         contact 📫 = contactMe {
             linkedIn = "linkedin.com/in/david-vega-lichacz"
