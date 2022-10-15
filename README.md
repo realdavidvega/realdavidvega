@@ -20,6 +20,11 @@ val David 👨‍💻 =
         learning 🌱 = learning {
             "Arrow" and "Coroutines"
         }
+        interested 💞️ = alsoInterestedOn {
+            "Javascript" and "React"
+            "Functional Programming"
+            "Java" or "Rust"
+        }
         contact 📫 = contactMe {
             linkedIn = "linkedin.com/in/david-vega-lichacz"
             email = "david.vega.lichacz@gmail.com"
