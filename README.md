@@ -10,7 +10,7 @@ val David 👨‍💻 =
         }
         occupation 🏢 = occupation {
             role = SoftwareEngineer
-            at = DeutscheBankAG
+            at = 47Degrees
             focusOn = Tech("Backend" and "DevOps") {
                 "Microservices" and "Kotlin"
                 "Docker" and "Kubernetes"
