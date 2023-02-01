@@ -11,10 +11,10 @@ val David 👨‍💻 =
         occupation 🏢 = occupation {
             role = SoftwareEngineer
             at = 47Degrees
-            focusOn = Tech("Backend" and "DevOps") {
+            focusedOn = Tech("Backend" and "DevOps") {
                 "Microservices" and "Kotlin"
                 "Docker" and "Kubernetes"
-                "Ktor" or "Spring"
+                "Ktor" and "Spring"
             }
         }
         learning 🌱 = currentlyLearning {
@@ -23,8 +23,8 @@ val David 👨‍💻 =
         interests 💞️ = interestedOn {
             "Functional Programming"
             "Fullstack Development"
-            "Angular" or "React"
-            "Java" or "Rust"
+            "Angular" and "React"
+            "Java" and "Rust"
         }
         contact 📫 = contactMe {
             linkedIn = "linkedin.com/in/david-vega-"
