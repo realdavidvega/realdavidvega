@@ -10,7 +10,7 @@ val David 👨‍💻 =
         }
         occupation 🏢 = occupation {
             role = SoftwareEngineer
-            at = 47Degrees
+            at = XebiaFunctional
             focusedOn = Tech("Backend" and "DevOps") {
                 "Microservices" and "Kotlin"
                 "Docker" and "Kubernetes"
