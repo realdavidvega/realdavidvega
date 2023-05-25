@@ -11,20 +11,21 @@ val David 👨‍💻 =
         occupation 🏢 = occupation {
             role = SoftwareEngineer
             at = XebiaFunctional
-            focusedOn = Tech("Backend" and "DevOps") {
+            focusedOn = Tech("Backend") {
                 "Microservices" and "Kotlin"
-                "Docker" and "Kubernetes"
                 "Ktor" and "Spring"
+                "Arrow" and "Coroutines"
             }
         }
         learning 🌱 = currentlyLearning {
-            "Arrow" and "Coroutines"
+            "AI" and "Kotlin Multiplatform"
         }
         interests 💞️ = interestedOn {
             "Functional Programming"
+            "Artificial Intelligence"
             "Fullstack Development"
-            "Angular" and "React"
-            "Java" and "Rust"
+            "React" and "Rust"
+            "JVM" and "Scala"
         }
         contact 📫 = contactMe {
             linkedIn = "linkedin.com/in/david-vega-lichacz"
