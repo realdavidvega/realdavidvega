@@ -12,9 +12,9 @@ val `David 👨‍💻`: Person =
             role = "Software Engineer"
             at = "Xebia Functional"
             focusedOn = Tech("Backend") {
-                "Microservices", "Kotlin",
-                "Ktor", "Spring",
-                "Arrow", "Coroutines"
+                architectures = listOf("Microservices", "Hexagonal", "Event Sourcing", "CQRS")
+                languages = listOf("Kotlin", "Java")
+                technologies = listOf("Arrow", "Coroutines", "Ktor", "Spring", "Kafka")
             }
         }
         `learning 🌱` = currentlyLearning {
@@ -24,7 +24,7 @@ val `David 👨‍💻`: Person =
             }
         }
         `interests 💞️` = interestedOn {
-            topics = arrayOf(
+            topics = listOf(
                 "Functional Programming",
                 "Artificial Intelligence",
                 "Fullstack Development",
