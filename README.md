@@ -16,6 +16,7 @@ val `David 👨‍💻`: Person =
                 "Ktor", "Spring",
                 "Arrow", "Coroutines"
             }
+        }
         `learning 🌱` = currentlyLearning {
             topics = buildList {
                 add("AI")
@@ -28,7 +29,7 @@ val `David 👨‍💻`: Person =
                 "Artificial Intelligence",
                 "Fullstack Development",
                 "React", "Rust", 
-                "JVM", "Scala"
+                "JVM", "Scala")
         }
         `contact 📫` = contactMe {
             linkedIn = "linkedin.com/in/david-vega-lichacz"
