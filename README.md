@@ -4,7 +4,7 @@
 val `David 👨‍💻`: Person =
     person {
         `from 📍` = "Madrid, Spain"
-        education = education {
+        `education 🎓` = education {
             degree = "Computer Science"
             university = "Technical University of Madrid"
         }
