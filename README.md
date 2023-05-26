@@ -1,36 +1,38 @@
 ### Hi there 👋
 
 ```kotlin
-val David 👨‍💻 =
+val `David 👨‍💻`: Person =
     person {
-        from 📍 = "Madrid, Spain"
-        education 🎓 = education {
+        `from 📍` = "Madrid, Spain"
+        education = education {
             degree = "Computer Science"
             university = "Technical University of Madrid"
         }
-        occupation 🏢 = occupation {
-            role = SoftwareEngineer
-            at = XebiaFunctional
+        `occupation 🏢` = occupation {
+            role = "Software Engineer"
+            at = "Xebia Functional"
             focusedOn = Tech("Backend") {
-                "Microservices" and "Kotlin"
-                "Ktor" and "Spring"
-                "Arrow" and "Coroutines"
+                "Microservices", "Kotlin",
+                "Ktor", "Spring",
+                "Arrow", "Coroutines"
+            }
+        `learning 🌱` = currentlyLearning {
+            topics = buildList {
+                add("AI")
+                add("Kotlin Multiplatform")
             }
         }
-        learning 🌱 = currentlyLearning {
-            "AI" and "Kotlin Multiplatform"
+        `interests 💞️` = interestedOn {
+            topics = arrayOf(
+                "Functional Programming",
+                "Artificial Intelligence",
+                "Fullstack Development",
+                "React", "Rust", 
+                "JVM", "Scala"
         }
-        interests 💞️ = interestedOn {
-            "Functional Programming"
-            "Artificial Intelligence"
-            "Fullstack Development"
-            "React" and "Rust"
-            "JVM" and "Scala"
-        }
-        contact 📫 = contactMe {
+        `contact 📫` = contactMe {
             linkedIn = "linkedin.com/in/david-vega-lichacz"
             email = "davidvegalichacz@gmail.com"
         }
     }
-}
 ```
