@@ -11,10 +11,15 @@ val `David 👨‍💻`: Person =
         `occupation 🏢` = occupation {
             role = "Software Engineer"
             at = "Xebia Functional"
-            focusedOn = Tech("Backend") {
-                architectures = listOf("Microservices", "Hexagonal", "Event Sourcing", "CQRS")
+            currentlyFocusedOn = Tech("Backend") {
+                technologies = listOf("LLM", "Microservices", "Hexagonal", "Event Sourcing", "CQRS")
                 languages = listOf("Kotlin", "Java")
-                technologies = listOf("Arrow", "Coroutines", "Ktor", "Spring", "Kafka")
+                libraries = listOf("Xef", "Arrow", "Ktor", "Coroutines", "Spring", "Kafka")
+            }
+            expertiseOn = Technologies {
+                web = listOf("JavaScript", "TypeScript", "Angular", "WebComponents", "Microfrontends", "Node")
+                infrastructure = listOf("Openshift", "GCP", "Docker", "Kubernetes")
+                cicd = listOf("GitHub Actions", "TeamCity", "Jenkins")
             }
         }
         `learning 🌱` = currentlyLearning {
@@ -25,8 +30,8 @@ val `David 👨‍💻`: Person =
         }
         `interests 💞️` = interestedOn {
             topics = listOf(
-                "Functional Programming",
                 "Artificial Intelligence",
+                "Functional Programming",
                 "Fullstack Development",
                 "React", "Rust", 
                 "JVM", "Scala")
