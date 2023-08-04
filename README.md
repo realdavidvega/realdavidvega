@@ -11,6 +11,7 @@ val `David 👨‍💻`: Person =
         `occupation 🏢` = occupation {
             role = "Software Engineer"
             at = "Xebia Functional"
+            exes = listOf("Deutsche Bank", "BBVA", "ONETEC", "BABEL")
             currentlyFocusedOn = Tech("Backend") {
                 technologies = listOf("LLM", "Microservices", "Hexagonal", "Event Sourcing", "CQRS")
                 languages = listOf("Kotlin", "Java")
