@@ -10,32 +10,37 @@ val `David 👨‍💻`: Person =
         }
         `occupation 🏢` = occupation {
             role = "Software Engineer"
-            at = "Xebia Functional"
+            at = "Xebia Functional (previously 47 Degrees)"
             exes = listOf("Deutsche Bank", "BBVA", "ONETEC", "BABEL")
-            currentlyFocusedOn = Tech("Backend") {
-                technologies = listOf("LLM", "Microservices", "Hexagonal", "Event Sourcing", "CQRS")
-                languages = listOf("Kotlin", "Java")
-                libraries = listOf("Xef", "Arrow", "Ktor", "Coroutines", "Spring", "Kafka")
+            currentFocus = Tech("Backend", "AI") {
+                tech = listOf("Generative AI", "Microservices")
+                lang = listOf("Kotlin")
+                libs = listOf("Xef", "Arrow", "Ktor", "Coroutines")
             }
             expertiseOn = Technologies {
-                web = listOf("JavaScript", "TypeScript", "Angular", "WebComponents", "Microfrontends", "Node")
-                infrastructure = listOf("Openshift", "GCP", "Docker", "Kubernetes")
+                backend = listOf("Java", "Spring Boot", "Kafka", "Hexagonal", "Event Sourcing", "CQRS", "Saga")
+                frontend = listOf("JavaScript", "TypeScript", "Angular", "WebComponents", "Microfrontends")
+                infra = listOf("Openshift", "GCP", "AWS", "Docker", "Kubernetes")
                 cicd = listOf("GitHub Actions", "TeamCity", "Jenkins")
             }
         }
         `learning 🌱` = currentlyLearning {
             topics = buildList {
                 add("AI")
+                add("Rust")
                 add("Kotlin Multiplatform")
             }
         }
         `interests 💞️` = interestedOn {
             topics = listOf(
-                "Artificial Intelligence",
-                "Functional Programming",
-                "Fullstack Development",
-                "React", "Rust", 
-                "JVM", "Scala")
+                "Architecture",
+                "AI",
+                "FP",
+                "Fullstack",
+                "React",
+                "JVM",
+                "Scala"
+            )
         }
         `contact 📫` = contactMe {
             linkedIn = "linkedin.com/in/david-vega-lichacz"
