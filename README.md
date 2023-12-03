@@ -13,8 +13,8 @@ val `David 👨‍💻`: Person =
             at = "Xebia Functional (previously 47 Degrees)"
             exes = listOf("Deutsche Bank", "BBVA", "ONETEC", "BABEL")
             currentFocus = Areas("Backend", "AI") {
-                tech = listOf("Generative AI", "Microservices")
-                lang = listOf("Kotlin")
+                archs = listOf("Generative AI", "Microservices")
+                langs = listOf("Kotlin")
                 libs = listOf("Xef", "Arrow", "Ktor", "Coroutines")
             }
             expertiseOn = Technologies {
