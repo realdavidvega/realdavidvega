@@ -9,17 +9,18 @@ val `David 👨‍💻`: Person =
             university = "Technical University of Madrid"
         }
         `occupation 🏢` = occupation {
-            role = "Software Engineer"
+            role = "Senior Software Engineer"
             at = "Xebia Functional (previously 47 Degrees)"
             exes = listOf("Deutsche Bank", "BBVA", "ONETEC", "BABEL")
-            currentFocus = Areas("AI", "Backend") {
+            currentFocus = Areas("AI", "Microservices") {
+                lang = setOf("Kotlin", "Scala", "Java", "JavaScript")
                 ai = listOf("Generative AI", "LLM", "Finetuning", "GPT", "Prompt Engineering", "Assistants", "RAG")
-                backend = listOf("Kotlin", "Spring WebFlux", "R2DBC", "Ktor", "Coroutines", "Microservices")
-                libs = listOf("Xef.ai", "Arrow.kt", "Testcontainers", "Kotest")
+                backend = listOf("Spring Boot", "R2DBC", "Ktor", "Coroutines", "http4s")
+                libs = listOf("Xef.ai", "Arrow.kt", "Testcontainers", "Kotest", "Cats Effect")
             }
             expertiseOn = Technologies {
-                backend = listOf("Java", "Spring Boot", "Kafka", "Hexagonal", "Event Sourcing", "CQRS", "Saga")
-                frontend = listOf("JavaScript", "TypeScript", "Angular", "WebComponents", "Microfrontends")
+                backend = listOf("Kafka", "Hexagonal", "Event Sourcing", "CQRS", "Saga")
+                frontend = listOf("TypeScript", "Angular", "WebComponents", "Microfrontends")
                 testing = listOf("Unit Testing", "Integration Testing", "Property-based Testing", "TDD", "BDD")
                 infra = listOf("Openshift", "GCP", "AWS", "Docker", "Kubernetes")
                 cicd = listOf("GitHub Actions", "TeamCity", "Jenkins")
@@ -28,8 +29,8 @@ val `David 👨‍💻`: Person =
         `learning 🌱` = currentlyLearning {
             topics = buildList {
                 add("AI")
-                add("Rust")
-                add("Kotlin Multiplatform")
+                add("Scala")
+                add("React")
             }
         }
         `interests 💞️` = interestedOn {
@@ -37,10 +38,10 @@ val `David 👨‍💻`: Person =
                 "Architecture",
                 "AI",
                 "FP",
+                "Scala",
                 "Fullstack",
                 "React",
-                "JVM",
-                "Scala"
+                "JVM"
             )
         }
         `contact 📫` = contactMe {
