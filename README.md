@@ -13,7 +13,7 @@ val `David 👨‍💻`: Person =
             at = "Xebia Functional (previously 47 Degrees)"
             exes = listOf("Deutsche Bank", "BBVA", "ONETEC", "BABEL")
             currentFocus = Areas("AI", "Microservices") {
-                lang = setOf("Kotlin", "Scala", "Java", "TypeScript")
+                lang = setOf("Kotlin", "TypeScript", "Java, "Scala")
                 ai = listOf("Generative AI", "LLM", "Finetuning", "GPT", "Prompt Engineering", "Assistants", "RAG")
                 backend = listOf("Spring Boot", "R2DBC", "Ktor", "Coroutines", "http4s", "node")
                 libs = listOf("Xef.ai", "Langchain4j", "Arrow.kt", "Testcontainers", "Kotest", "Cats Effect", "Effect-TS")
@@ -29,8 +29,7 @@ val `David 👨‍💻`: Person =
         `learning 🌱` = currentlyLearning {
             topics = buildList {
                 add("AI")
-                add("Databricks")
-                add("Scala")
+                add("Next.js")
             }
         }
         `interests 💞️` = interestedOn {
