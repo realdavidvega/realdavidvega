@@ -10,7 +10,7 @@ val `David 👨‍💻`: Person =
         }
         `occupation 🏢` = occupation {
             role = "Senior Software Engineer"
-            at = "Xebia Functional (previously 47 Degrees)"
+            at = "Xebia (previously 47 Degrees)"
             exes = listOf("Deutsche Bank", "BBVA", "ONETEC", "BABEL")
             currentFocus = Areas("AI", "Microservices") {
                 lang = setOf("Kotlin", "TypeScript", "Java, "Scala")
