@@ -10,17 +10,19 @@ val `David 👨‍💻`: Person =
         }
         `occupation 🏢` = occupation {
             role = "Senior Software Engineer"
-            at = "Xebia (previously 47 Degrees)"
+            at = "Xebia (formerly 47 Degrees)"
             exes = listOf("Deutsche Bank", "BBVA", "ONETEC", "BABEL")
             currentFocus = Areas("AI", "Microservices") {
-                lang = setOf("Kotlin", "TypeScript", "Java, "Scala")
+                lang = listOf("Kotlin", "TypeScript")
                 ai = listOf("Generative AI", "LLM", "Finetuning", "GPT", "Prompt Engineering", "Assistants", "RAG")
                 backend = listOf("Spring Boot", "R2DBC", "Ktor", "Coroutines", "http4s", "node")
-                libs = listOf("Xef.ai", "Langchain4j", "Arrow.kt", "Testcontainers", "Kotest", "Cats Effect", "Effect-TS")
+                libs = listOf("Xef.ai", "Langchain4j", "Arrow.kt", "Testcontainers", "Kotest")
             }
-            expertiseOn = Technologies {
+            additionalExpertise = Technologies {
+                lang = listOf("Java", "Scala", "JavaScript", "Python", "Rust")
+                fp = listOf("Arrow.kt", "Cats Effect")
                 backend = listOf("Kafka", "Hexagonal", "Event Sourcing", "CQRS", "Saga")
-                frontend = listOf("TypeScript", "Angular", "WebComponents", "Microfrontends")
+                frontend = listOf("Angular", "React", "Lit", "WebComponents", "Microfrontends")
                 testing = listOf("Unit Testing", "Integration Testing", "Property-based Testing", "TDD", "BDD")
                 infra = listOf("Openshift", "GCP", "AWS", "Docker", "Kubernetes")
                 cicd = listOf("GitHub Actions", "TeamCity", "Jenkins")
@@ -29,18 +31,19 @@ val `David 👨‍💻`: Person =
         `learning 🌱` = currentlyLearning {
             topics = buildList {
                 add("AI")
+                add("Vercel AI")
+                add("Effect TS")
                 add("Next.js")
+                add("ZIO")
             }
         }
         `interests 💞️` = interestedOn {
             topics = listOf(
-                "Architecture",
-                "AI",
-                "FP",
-                "Scala",
-                "Fullstack",
-                "React",
-                "JVM"
+    	        "Artificial intelligence",
+                "Multiplatform development",
+                "Functional programming",
+                "Software architecture",
+                "Fullstack development"
             )
         }
         `contact 📫` = contactMe {
